@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Sharing Platform</title>
+    <link rel="stylesheet" href="recipe.css">
+</head>
+<body>
+    <h1>Recipe App</h1>
+
+    <div id="login-form">
+        <!-- Login form -->
+        <form id="login-form">
+          <input type="text" id="username" placeholder="Username">
+          <input type="password" id="password" placeholder="Password">
+          <button type="button" onclick="login()">Login</button><br>
+        </form>
+      </div>
+    <header>
+    
+        <h1>Recipe Sharing Platform</h1>
+    </header>
+
+    <main>
+       
+        <section id="recipe-list">
+            <div class="recipe">
+                
+                <h2>Recipe Name 1:Laddu</h2>
+                <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2018/09/boondi-ladoo-recipe-1.jpg" alt="laddu" width="250px" Height="250px">
+                <p>Description of Laddu:The delightful small bits of fried and sugar-soaked batter (made with gram flour or besan) are combined with seeds and aromatic spices to create the sweet, spherical delicacies known as boondi laddu. You will love the lovely combination of smooth, silky, and melt-in-your-mouth texture in every mouthful of this snack or dessert! </p>
+            </div>
+            
+            <div class="recipe">
+                
+                <h2>Recipe Name 2:panipuri</h2>
+                <img src="https://www.awesomecuisine.com/wp-content/uploads/2007/11/Pani-Puri.jpg.webp" alt="panipuri" width="250px" height="250px">
+                <p>Description of Panipuri:India's roadside shops serve the well-known street dish pani puri, also known as golgappa or puchka. The delectable concoction of mashed potatoes, chickpeas, onions, chiles, and warm Indian spices is served by vendors in little, crispy puris. For most people, the best part of the delicious snack is the pouring of water (pani), which is zesty and mildly spicy, into the packed puris. Take a bite off of one of them to experience a burst of flavor from perfectly matched ingredients!</p>
+            </div>
+            <div class="recipe">
+                
+                <h2>Recipe Name 3:Icecream</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSIdTQP0ZJFydFKCN7E2UvpmWwmYQ6dFdEgA&usqp=CAUalt" alt="Icecream" width="250px" height="250px">
+                <p>Description of Icecream:One of the most popular sweets on the planet is ice cream. Many enjoy the creamy, sweet flavor of it. Made from dairy ingredients such milk and cream, eggs, sugar, and sorbet powder, ice cream is a popular and delectable treat. Fruits, veggies, and milk can be used to make ice cream instead of sugar.</p>
+            </div>
+        </section>
+
+        <section id="add-recipe">
+                <!-- Form to add new recipe -->
+                <h2>Add New Recipe</h2>
+                <form id="recipe-form">
+                    <label for="recipe-name">Recipe Name:</label>
+                    <input type="text" id="recipe-name" required>
+    
+                    <label for="recipe-description">Description:</label>
+                    <textarea id="recipe-description" rows="4" required></textarea>
+
+                   
+                    <button type="submit">Add Recipe</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="recipe.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+/* Add your CSS styles here */
+header {
+    background-color:rgb(32, 178, 56);
+    color:brown;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#recipe-list {
+    width: 60%;
+}
+
+#add-recipe {
+    width: 45%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color:rgb(98, 0, 255);
+    color:palegreen;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:purple;
+}
+.recipe-img {
+    width: 100px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper block-level rendering */
+    margin-bottom: 10px; /* Add some space between images */
+}
